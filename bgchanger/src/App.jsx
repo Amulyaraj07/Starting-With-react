@@ -14,10 +14,11 @@ const [color,setColor]=useState("olive");
               <button onClick={()=> setColor("teal")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"teal"}}>Teal</button>
               <button onClick={()=> setColor("lime")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"lime"}}>Lime</button>
               <button onClick={()=> setColor("brown")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"brown"}}>Brown</button>
+              <button onClick={()=> setColor("white")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"White"}}>White</button>
+              <button onClick={()=> setColor("blue")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"blue"}}>Blue</button>
+              <button onClick={()=> setColor("pink")} className="outline-none px-4 py-1 rounded-full test-white shadow-lg" style={{backgroundColor:"pink"}}>pink</button>
             </div>
-
           </div>
-
       </div>
     </>
   )
