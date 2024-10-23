@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
-
+import EventHandlingComponent from './EventHandlingComponent';
 
 
 function App() {
@@ -91,6 +91,7 @@ function App() {
           <label htmlFor="characterInput">Characters</label>
       </div>
     </div>
+    <EventHandlingComponent/>
 </div>
     
   )
