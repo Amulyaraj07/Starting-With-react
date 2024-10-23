@@ -2,6 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ToggleListComponent from './ToggleListComponent'
+import LifecycleLoggerComponent from './LifecycleLoggerComponent'
+import Forms from './Forms'
+import Addform from './AddFroms'
+import AuthForm from './AuthForm'
+
 
 function App() {
   const [counter,setCounter]=useState(15);
@@ -18,11 +24,15 @@ function App() {
 
   return (
     <>
-        <h1>Code with Amulya</h1>
-        <h2>Counter Value: {counter}</h2>
 
-        <button onClick={addVal}>Increase Val</button><br />
-        <button onClick={decVal}>Decrease Val</button>
+        {/* <h1>Forms in react</h1> */}
+        {/* <ToggleListComponent/> */}
+        {/* <LifecycleLoggerComponent watchedProp="Hi Amulya" /> */}
+        {/* <Forms/> */}
+        {/* <Addform/> */}
+
+        <AuthForm/>
+
     </>
   )
 }
